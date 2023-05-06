@@ -8,6 +8,10 @@ router.get('/', function(req, res, next) {
 
 router.get((req, res)=>{
   res.render('url not found!');
+});
+
+router.get('/about',(req, res)=>{
+  res.render('About section!');
 })
 
 module.exports = router;
