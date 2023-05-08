@@ -16,6 +16,10 @@ router.get('/about',(req, res)=>{
 
 router.get('/news',(req, res)=>{
   res.render('News section!');
+});
+
+router.get('/signup',(req, res)=>{
+  res.render('Signup section');
 })
 
 module.exports = router;
