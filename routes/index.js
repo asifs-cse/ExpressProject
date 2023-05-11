@@ -26,4 +26,8 @@ router.get('/login',(req, res)=>{
   res.render('login section');
 });
 
+router.get('/admin',(req, res)=>{
+  res.render('admin activity');
+})
+
 module.exports = router;
