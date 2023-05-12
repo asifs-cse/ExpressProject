@@ -28,6 +28,10 @@ router.get('/login',(req, res)=>{
 
 router.get('/admin',(req, res)=>{
   res.render('admin activity');
-})
+});
+
+router.get('/contact',(req, res)=>{
+  res.render('contact activity');
+});
 
 module.exports = router;
