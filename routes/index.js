@@ -33,6 +33,8 @@ router.get('/admin',(req, res)=>{
   res.render('admin activity');
 });
 
+//contact router
+
 router.get('/contact',(req, res)=>{
   res.render('contact activity');
 });
