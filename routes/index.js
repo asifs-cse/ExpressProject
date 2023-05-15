@@ -29,6 +29,7 @@ router.get('/login',(req, res)=>{
   res.render('login section');
 });
 
+//admin rote
 router.get('/admin',(req, res)=>{
   res.render('admin activity');
 });
